@@ -18,7 +18,7 @@ Have Some Fun Make the game your own by enhancing it any way you like. Here are 
 Enhanced gems and rocks (multiple kinds, different points). Enhanced player movement (up and down in a limited range) Enhanced game play and game over messages. Enhanced gem, rock and player representation (colors or better symbols)
 
 ## Project Structure
-++ The project should be structured as follows:
++ The project should be structured as follows:
 root (project root folder) +-- rfk (source code for game) +-- game (specific classes) +-- main.py (program entry point) +-- README.md (general info)
 
 
