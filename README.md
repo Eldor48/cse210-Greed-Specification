@@ -15,13 +15,16 @@ The program must have a README file. The program must have at least eight classe
 
 
 ## Project Structure
-+ The project should be structured as follows:
-root (project root folder) 
-+ -- rfk (source code for game) 
-+ -- game (specific classes) 
-+ -- main.py (program entry point) 
-+ -- README.md (general info)
-
+---
+The project files and folders are organized as follows:
+```
+root                     (project root folder)
++-- greeder              (source code for game)
+  +-- game               (specific game classes)
+  +-- __init__.py        (python package file)
+  +-- __main__.py        (entry point for program)
++-- README.md            (general info)
+```
 
 ## Required Technologies
 + Python 3.6.4
