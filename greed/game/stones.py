@@ -2,11 +2,11 @@ from game.actor import Actor
 from game.point import Point
 import random
 
-class Gem(Actor):
+class Stone(Actor):
     """
-    An item of value and interest. 
+    An item that is worthless and of no interest. 
     
-    The responsibility of a Gem is to provide the movement for itself.
+    The responsibility of a Stone is to remove value.
     Attributes:
         none
     """
@@ -22,7 +22,7 @@ class Gem(Actor):
             max_y (int): The maximum y value.
         """
         x = self._position.get_x()
-        y = (self._position.get_y() + 5) % max_y
+        y = (self._position.get_y() + 3) % max_y
         self._position = Point(x, y)
 
     def change_x(self):

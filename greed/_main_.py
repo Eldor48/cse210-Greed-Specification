@@ -1,20 +1,20 @@
 import random
 
 from game.actor import Actor
-from game.casting.gems import Gem
-from game.casting.stones import Stone
-from game.casting.cast import Cast
+from game.gems import Gem
+from game.stones import Stone
+from game.cast import Cast
 
-from game.directing.director import Director
+from game.director import Director
 
-from game.services.keyboard_service import KeyboardService
-from game.services.video_service import VideoService
+from game.keyboard_service import KeyboardService
+from game.video_service import VideoService
 
-from game.shared.color import Color
-from game.shared.point import Point
+from game.color import Color
+from game.point import Point
 
 #The Basic Variables for the program.
-FRAME_RATE = 12
+FRAME_RATE = 100
 MAX_X = 900
 MAX_Y = 600
 CELL_SIZE = 15
