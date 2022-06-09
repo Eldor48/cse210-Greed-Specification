@@ -16,7 +16,11 @@ The program must have a README file. The program must have at least eight classe
 
 ## Project Structure
 + The project should be structured as follows:
-root (project root folder) +-- rfk (source code for game) +-- game (specific classes) +-- main.py (program entry point) +-- README.md (general info)
+root (project root folder) 
++ -- rfk (source code for game) 
++ -- game (specific classes) 
++ -- main.py (program entry point) 
++ -- README.md (general info)
 
 
 ## Required Technologies
