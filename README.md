@@ -13,9 +13,6 @@ Your program must also meet the following requirements.
 
 The program must have a README file. The program must have at least eight classes. Each module, class and method must have a corresponding comment. The game must remain generally true to the order of play described earlier.
 
-Have Some Fun Make the game your own by enhancing it any way you like. Here are a few ideas.
-
-Enhanced gems and rocks (multiple kinds, different points). Enhanced player movement (up and down in a limited range) Enhanced game play and game over messages. Enhanced gem, rock and player representation (colors or better symbols)
 
 ## Project Structure
 + The project should be structured as follows:
