@@ -14,7 +14,7 @@ from game.color import Color
 from game.point import Point
 
 #The Basic Variables for the program.
-FRAME_RATE = 100
+FRAME_RATE = 40
 MAX_X = 900
 MAX_Y = 600
 CELL_SIZE = 15
