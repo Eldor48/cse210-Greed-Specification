@@ -1,4 +1,4 @@
-import pyray
+import pyray    # pip install pyray 
 import tkinter as tk
 from tkinter import *
 

@@ -13,8 +13,12 @@ from game.video_service import VideoService
 from game.color import Color
 from game.point import Point
 
+def grow_number(number):
+        number = 10 * number
+        while number < 3000:
+            number = number * 2
 #The Basic Variables for the program.
-FRAME_RATE = 40
+FRAME_RATE = grow_number(10)
 MAX_X = 900
 MAX_Y = 600
 CELL_SIZE = 15
