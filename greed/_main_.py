@@ -5,7 +5,7 @@ from game.gems import Gem
 from game.stones import Stone
 from game.cast import Cast
 
-from game.director import Director
+from game.Director import Director
 
 from game.keyboard_service import KeyboardService
 from game.video_service import VideoService
